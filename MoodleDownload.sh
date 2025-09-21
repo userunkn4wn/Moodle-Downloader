@@ -2,7 +2,7 @@ url=$1
 outname=$2
 
 #ffmpeg -i "$url" -c copy -bsf:a aac_adtstoasc "$outname"
-ffmpeg -i "$url" -c copy -bsf:v h264_mp4toannexb "$outname.mp4"
+ffmpeg -i "$url" -c copy -bsf:v h264_mp4toannexb "$HOME/Downloads/$outname.mp4"
 
 #ffmpeg -i "$url" -c:a copy "$outname"
 
